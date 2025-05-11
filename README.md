@@ -94,7 +94,7 @@ Prediction score is below 30%. The UI shows a green heart icon with the label **
 
 ![Screenshot 2025-05-11 200631]((Screenshots/case 1)
 
-![Screenshot 2025-05-11 200631]((Screenshots/case 1-2)
+![Screenshot 2025-05-11 200631](https://github.com/srishti-cmd/Heart_failure_prediction/blob/main/Screenshots/case%201-2.png)
 
 
 ---
