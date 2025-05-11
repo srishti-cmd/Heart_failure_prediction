@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background:  #dfaa6e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 110vh;
+}
+
+.container {
+  text-align: center;
+  max-width: 600px;
+  width: 90%;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.card {
+  background: #dfaa6e;
+  border-radius: 20px;
+  padding: 25px;
+  margin: 20px auto;
+  overflow: visible;
+}
+
+.heart {
+  width: 80px;
+  height: 80px;
+  background: red;
+  position: relative;
+  margin: 50px auto 20px;
+  transform: rotate(-45deg);
+}
+
+.heart::before,
+.heart::after {
+  content: '';
+  width: 80px;
+  height: 80px;
+  background: inherit;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.heart::before {
+  top: -40px;
+  left: 0;
+}
+
+.heart::after {
+  left: 40px;
+  top: 0;
+}
+
+.heart.healthy {
+  background: #2ecc71;
+}
+
+.heart.healthy::before,
+.heart.healthy::after {
+  background: #2ecc71;
+}
+
+.heart.beating {
+  animation: pulse 1.5s infinite;
+}
+
+.heart.at-risk {
+  background: hsl(57, 78%, 55%);
+  animation: pulse 1.5s infinite;
+  box-shadow: 0 0 20px rgba(255, 193, 7, 0.6);
+}
+
+.heart.at-risk::before,
+.heart.at-risk::after {
+  background: hsl(57, 78%, 55%);
+}
+
+.heart.at-risk .ecg-line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background: none;
+  z-index: 2;
+  transform: rotate(45deg);
+  overflow: hidden;
+}
+
+.heart.at-risk .ecg-line::before {
+  content: '';
+  position: absolute;
+  width: 300%;
+  height: 100%;
+  background-size: contain;
+  animation: moveECG 2s linear infinite;
+  background: url(ecg.png) repeat-x;
+}
+
+.heart.critical {
+  background: hsl(0, 88%, 53%);
+  animation: pulse 1.5s infinite;
+  box-shadow: 0 0 20px rgba(224, 29, 29, 0.8);
+}
+
+.heart.critical::before,
+.heart.critical::after {
+  background: #f41b1b;
+}
+
+.status {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.status.green {
+  color: #2e7d32;
+}
+
+.status.amber {
+  color: #ef6c00;
+}
+
+.status.red {
+  color: #b71c1c;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: rotate(-45deg) scale(1);
+  }
+  50% {
+    transform: rotate(-45deg) scale(1.05);
+  }
+}
+
+@keyframes moveECG {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+.status-box {
+  position: relative;
+  margin-top: 10px;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 15px;
+  text-align: center;
+  width: 80%;
+}
+
+.status {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-left: 150px;
+}
+
+.status.green {
+  color: #2e7d32;
+}
+
+.status.amber {
+  color: #ef6c00;
+}
+
+.status.red {
+  color: #b71c1c;
+}
