@@ -86,7 +86,7 @@ Install dependencies with:
 ## 📸 Screenshots
 
 ### Main Page
- ![Main Page](https://github.com/srishti-cmd/Heart_failure_prediction/blob/main/Screenshot%202025-05-11%20200409%20(1).png))
+ ![Main Page](https://github.com/srishti-cmd/Heart_failure_prediction/blob/main/Screenshot%202025-05-11%20200409%20(1).png)
 
 
 ### ✅ Case 1: Healthy Heart (Low Risk)
