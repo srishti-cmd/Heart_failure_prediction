@@ -6,15 +6,24 @@ This project aims to predict **30-day hospital readmission** for heart failure p
 ## 📁 Project Structure
 
 ├── heart_failure_model.py # Full ML Pipeline
+
 ├── ui.py # Streamlit frontend
+
 ├── outputs/ # Model output directory
+
 │ ├── best_model.pkl # Trained model file
+
 │ ├── feature_names.pkl # Model input features
+
 │ ├── final_dataset.csv # Processed dataset
 │ └── *.png / *.csv # Visualizations and stats
+
 ├── 1.css # Custom CSS for Streamlit UI
+
 ├── tests/ # Unit tests (optional)
+
 └── data/
+
 └── mimic/ # Raw training data (MIMIC-III CSVs)
 ## 🔧 Features
 
