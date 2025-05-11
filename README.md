@@ -4,6 +4,7 @@ This project aims to predict **30-day hospital readmission** for heart failure p
 
 ---
 ## 📁 Project Structure
+
 |--fail_prediction.py #Full ML Pipeline
 |--ui.py # StreamLit frontend 
 |--output
@@ -16,7 +17,7 @@ This project aims to predict **30-day hospital readmission** for heart failure p
 
 ## 🔧 Features
 
-### ✅ Backend (`heart_failure_model.py`)
+### ✅ Backend (`fail_prediction.py`)
 - **Loads** MIMIC-III clinical tables (`ADMISSIONS`, `PATIENTS`, `DIAGNOSES_ICD`, etc.)
 - **Identifies** heart failure cases based on ICD-9 codes.
 - **Creates** 30-day readmission labels from admission history.
@@ -62,11 +63,11 @@ This generates:
 ->best_model.pkl
 ->feature_names.pkl
    
-**2.Launch Streamlit App**
+2.Launch Streamlit App
 
 >>>streamlit run ui.py
 Then enter a Patient ID to get predictions.
 
-** 3. Requirements**
+3. Requirements**
 Install dependencies with:
 >>>pip install pandas numpy matplotlib seaborn scikit-learn xgboost streamlit
