@@ -86,15 +86,15 @@ Install dependencies with:
 ## 📸 Screenshots
 
 ### Main Page
- ![Screenshot 2025-05-11 200409](https://github.com/user-attachments/assets/79b4473d-04b5-4b0a-9d49-8a6b317ba4f5)
+ ![Screenshot 2025-05-11 200409](Screenshots/main)
 
 
 ### ✅ Case 1: Healthy Heart (Low Risk)
 Prediction score is below 30%. The UI shows a green heart icon with the label **"Healthy Heart"**.
 
-![Screenshot 2025-05-11 200631](https://github.com/user-attachments/assets/410828aa-9e07-49e0-9999-4e99e77dafcb)
+![Screenshot 2025-05-11 200631]((Screenshots/case 1)
 
-![Screenshot 2025-05-11 200631](https://github.com/user-attachments/assets/60e23fab-e9ef-4988-970e-90bf37181bae)
+![Screenshot 2025-05-11 200631]((Screenshots/case 1-2)
 
 
 ---
@@ -102,16 +102,17 @@ Prediction score is below 30%. The UI shows a green heart icon with the label **
 ### ⚠️ Case 2: Heart At Risk (Moderate Risk)
 Prediction score is between 30% and 60%. The UI displays an amber/orange heart with the label **"Heart At Risk"**.
 
-![Screenshot 2025-05-11 200432](https://github.com/user-attachments/assets/187e9074-e3b1-437f-b78f-4b3cbdb03321)
+![Screenshot 2025-05-11 200432](case 2)
 
-![Screenshot 2025-05-11 200442](https://github.com/user-attachments/assets/e51d2da7-420b-40dc-ade7-ae832d149c30)
+![Screenshot 2025-05-11 200442](case 2-1)
 
 
 ### 🚨 Case 3: Critical Heart (High Risk)
 Prediction score is above 60%. The app highlights this with a red heart icon and the label **"Critical Heart"**.
 
-![Screenshot 2025-05-11 200503](https://github.com/user-attachments/assets/74f10947-dd4b-4d17-b774-b51bf4fb9d19)
+![Screenshot 2025-05-11 200503](case 3)
 
 
-![Screenshot 2025-05-11 200511](https://github.com/user-attachments/assets/1eb155f4-1556-4e30-8cb9-18a6094a2452)
+![Screenshot 2025-05-11 200511](case 3-2)
+
 
